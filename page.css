@@ -1,0 +1,74 @@
+/*
+Couleur du projet:
+bleu #0065FC
+bleu claire #DEEBFF
+gris #F2F2F2
+*/
+
+
+body, header, h1, h2, h3, h4, h5, h6, ul, li, form, input, i, p, img{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+/*  HEADER  */
+
+@media screen and (min-width: 1440px){
+
+    .wrapper{
+        width: 1440px;
+        padding: 0 50px;
+        
+    }
+
+    header{
+        height: 90px;
+        display: flex;
+        color: black;
+    }
+
+    img{
+        margin-top: 45px;
+        margin-left: 53px;
+    }
+
+    header ul{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    header ul li{
+        margin: 0 33px;
+    }
+
+    header ul li.active>a{
+        color: #0065FC;
+    }
+
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+
+    header .sign-in{
+        margin-right: 77px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-left: 33px;
+        color: #0065FC;
+    }
+}
+
