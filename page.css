@@ -134,3 +134,111 @@ body{
         color: #0065FC;
     }
 }
+
+/*  SearchBar   */
+
+@media screen and (min-width: 768px){
+    #search{
+        padding: 0 55px;
+        margin-top: 40px;
+    }
+
+    #search h3{
+        font-size: 19px;
+    }
+
+    #search>p:nth-child(2){
+        font-size: 15px;
+        margin-top: 14px;
+    }
+
+    #search form{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #search form i{
+        height: 50px;
+        width: 50px;
+        border-radius: 13px 0 0 13px;
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        font-size: 18px;
+        text-align: center;
+        line-height: 48px;
+    }
+
+    #search form input:nth-child(2){
+        height: 50px;
+        padding-left: 16px;
+        width: 218px;
+        font-size: 18px;
+        border: 1px solid #f2f2f2;
+    }
+
+    #search form input:nth-child(3){
+        height: 52px;
+        width: 134px;
+        border-radius: 0 13px 13px 0;
+        color: #fff;
+        margin-top: 1px;
+        background-color: #0065FC;
+        font-size: 18px;
+        border: 1px solid #0065FC;
+    }
+
+    #search .filtre {
+        margin-left: 8px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    #search .filtre p:nth-child(1){
+        margin-right: 24px;
+    }
+
+    #search .filtre .filtre-icon{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #search .filtre .filtre-icon>div{
+        display: flex;
+        font-size: 16px;
+        line-height: 50px;
+        border: 1px solid #f2f2f2;
+        border-radius: 30px;
+        margin: 5px 12px;
+    }
+
+    #search .filtre .filtre-icon>div i{
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: #DEEBFF;
+        border-radius: 50%;
+        color: #0065FC;
+    }
+
+    #search .filtre .filtre-icon>div p{
+        padding: 0 22px 0 13px;
+    }
+
+    #search p:nth-child(5){
+        font-size: 15px;
+        margin-top: 35px;
+    }
+
+    #search p:nth-child(5) i{
+        color: #0065FC;
+        line-height: 24px;
+        text-align: center;
+        height: 24px;
+        width: 24px;
+        border: 1px solid #f2f2f2;
+        border-radius: 50%;
+        margin-right: 13px;
+    }
+}
