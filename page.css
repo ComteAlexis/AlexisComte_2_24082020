@@ -21,12 +21,16 @@ body{
 
 /*  HEADER  */
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 768px){
 
     .wrapper{
         width: 1440px;
-        padding: 0 50px;
-        
+    }
+
+    @media screen and (max-width: 1439px){
+        .wrapper{
+            width: 100%;
+        }
     }
 
     header{
@@ -37,7 +41,7 @@ body{
 
     img{
         margin-top: 45px;
-        margin-left: 53px;
+        margin-left: 50px;
     }
 
     header ul{
