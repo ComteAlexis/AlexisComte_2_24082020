@@ -81,6 +81,7 @@ body{
     }
 }
 
+
 @media screen and (max-width: 767px){
     .wrapper{
         width: 100%;
@@ -357,3 +358,576 @@ body{
         margin-right: 13px;
     }
 }
+
+/*  PropositionContainer    */
+
+@media screen and (min-width:1440px){
+
+    #proposition{
+    display: grid;
+    grid-template-columns: 880px 420px;
+    gap: 40px;
+    grid-template-rows: 625px;
+    margin: 35px 50px 0 50px;
+    }
+
+    /*hebergements*/
+
+    #hebergement{
+        background-color: #f2f2f2;
+        padding: 0 40px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hebergement>h3{
+        font-size: 18px;
+        margin-top: 48px;
+    }
+
+    #hebergement .proposition-ville{
+        margin-top: 30px;
+        flex: 1;
+        margin-bottom: 43px;
+        display: grid;
+        grid-template-columns: repeat(3, 246px);
+        gap: 31px;
+    }
+
+    #hebergement .proposition-ville .proposition-info{
+        border-radius: 17px;
+        background-color: #fff;
+        padding: 5px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .info{
+        margin-left: 10px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .image{
+        height: 114px;
+        width: 236px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(1) .image{
+        background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(2) .image{
+        background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(3) .image{
+        background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(4) .image{
+        background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') 0px -53px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(5) .image{
+        background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(6) .image{
+        background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') 0px -115px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info h4{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    #hebergement .proposition-ville .proposition-info p:nth-child(2){
+        font-size: 12px;
+    }
+
+    #hebergement .proposition-ville .proposition-info p:nth-child(3){
+        font-size: 13px;
+        margin-top: 10px;
+        color: #0065FC;
+    }
+
+    #hebergement>p{
+        font-size: 15px;
+        margin-bottom: 48px;
+    }
+
+    /*populaire*/
+
+    #populaire{
+        background-color: #f2f2f2;
+        border-radius: 18px;
+        padding: 45px 40px 33px 37px;
+    }
+
+    #populaire .titre{
+        font-size: 18px;
+        display: flex;
+        margin-bottom: 29px;
+        flex-wrap: wrap;
+    }
+
+    #populaire .titre h3{
+        flex: 1;
+    }
+
+    #populaire .populaire-info{
+        display: grid;
+        height: 498px;
+        grid-template-rows: repeat(3, 144px);
+        gap: 33px;
+    }
+
+    #populaire .populaire-info .info-hotel{
+        background-color: #fff;
+        border-radius: 17px;
+        display: flex;
+        padding: 5px;
+        border-radius: 13px;
+    }
+
+    #populaire .populaire-info .info-hotel .image{
+        border-radius: 13px 0 0 13px;
+    }
+
+    #populaire .populaire-info .info-hotel:nth-child(1) .image{
+        background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') -40px -5px no-repeat;
+        background-size: 210px;
+    }
+
+    #populaire .populaire-info .info-hotel:nth-child(2) .image{
+        background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') -40px -5px no-repeat;
+        background-size: 210px;
+    }
+
+    #populaire .populaire-info .info-hotel:nth-child(3) .image{
+        background: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') -0px -30px no-repeat;
+        background-size: 130px;
+    }
+
+    #populaire .populaire-info .info-hotel .image{
+        width: 127px;
+        margin-right: 20px;
+    }
+
+    #populaire .populaire-info .info-hotel .info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 150px;
+    }
+
+    #populaire .populaire-info .info-hotel .info .info-nom{
+        font-size: 14px;
+        margin-top: 13px;
+    }
+
+    #populaire .populaire-info .info-hotel .info .info-prix{
+        font-size: 13px;
+        margin-top: 13px;
+        flex: 1;
+    }
+    #populaire .populaire-info .info-hotel .info .info-note{
+        font-size: 12px;
+        color: #0065FC;
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1439px){
+
+    #proposition{
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 625px;
+    margin: 35px 100px 0 100px;
+    }
+
+    /*hebergements*/
+
+    #hebergement{
+        background-color: #f2f2f2;
+        padding: 0 40px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hebergement>h3{
+        font-size: 18px;
+        margin-top: 48px;
+    }
+
+    #hebergement .proposition-ville{
+        margin-top: 30px;
+        flex: 1;
+        margin-bottom: 43px;
+        display: grid;
+        gap: 33px 0;
+        grid-template-columns: repeat(3, 246px);
+        align-content: space-between;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width:768px) and (max-width: 1030px){
+        #hebergement .proposition-ville{
+            margin-top: 30px;
+            flex: 1;
+            margin-bottom: 43px;
+            display: grid;
+            gap: 33px 0;
+            grid-template-columns: repeat(2, 246px);
+            align-content: space-between;
+            justify-content: space-between;
+        }
+    }
+
+    #hebergement .proposition-ville .proposition-info{
+        border-radius: 17px;
+        background-color: #fff;
+        padding: 5px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .info{
+        margin-left: 10px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .image{
+        height: 114px;
+        width: 236px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(1) .image{
+        background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(2) .image{
+        background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(3) .image{
+        background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(4) .image{
+        background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') 0px -53px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(5) .image{
+        background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') 0px -23px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(6) .image{
+        background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') 0px -115px no-repeat;
+        background-size: 236px;
+    }
+
+    #hebergement .proposition-ville .proposition-info h4{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    #hebergement .proposition-ville .proposition-info p:nth-child(2){
+        font-size: 12px;
+    }
+
+    #hebergement .proposition-ville .proposition-info p:nth-child(3){
+        font-size: 13px;
+        margin-top: 10px;
+        color: #0065FC;
+    }
+
+    #hebergement>p{
+        font-size: 15px;
+        margin-bottom: 48px;
+    }
+
+    /*populaire*/
+
+    #populaire{
+        background-color: #f2f2f2;
+        border-radius: 18px;
+        padding: 45px 40px 33px 37px;
+        margin-top: 30px;
+    }
+
+    #populaire .titre{
+        font-size: 18px;
+        display: flex;
+        margin-bottom: 29px;
+        flex-wrap: wrap;
+    }
+
+    #populaire .titre h3{
+        flex: 1;
+    }
+
+    #populaire .populaire-info{
+        display: grid;
+        grid-template-columns: repeat(3, 246px);
+        align-content: space-between;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1030px){
+        #populaire .populaire-info{
+            display: grid;
+            grid-template-columns: repeat(2, 246px);
+            gap: 30px 0;
+            align-content: space-between;
+            justify-content: space-between;
+        }
+    }
+
+    #populaire .populaire-info .info-hotel{
+        background-color: white;
+        border-radius: 18px;
+        padding: 5px;
+    }
+
+    #populaire .populaire-info .info-hotel .image{
+        height: 114px;
+        width: 236px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    #populaire .populaire-info .info-hotel:nth-child(1) .image{
+        background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') 0 -40px no-repeat;
+        background-size: 240px;
+    }
+
+    #populaire .populaire-info .info-hotel:nth-child(2) .image{
+        background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') 0 -40px no-repeat;
+        background-size: 240px;
+    }
+
+    #populaire .populaire-info .info-hotel:nth-child(3) .image{
+        background: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') 0 -160px no-repeat;
+        background-size: 240px;
+    }
+
+    #populaire .populaire-info .info-hotel .info{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    #populaire .populaire-info .info-hotel h4{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    #populaire .populaire-info .info-hotel p:nth-child(2){
+        font-size: 12px;
+        flex: 1;
+    }
+
+    #proposition .populaire-info .info-hotel p:nth-child(3){
+        font-size: 13px;
+        margin-bottom: 5px;
+        color: #0065FC;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    #proposition{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*proposition*/
+
+    #populaire{
+        background-color: #f2f2f2;
+        padding: 0 20px;
+    }
+
+    #populaire .titre{
+        display: flex;
+        margin-top: 23px;
+    }
+
+    #populaire .titre h3{
+        font-size: 18px;
+        flex: 1;
+    }
+
+    #populaire .populaire-info{
+        margin-top: 24px;
+        margin-bottom: 31px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #populaire .populaire-info .info-hotel{
+        flex: 1;
+        height: 144px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 17px;
+        display: flex;
+        padding: 5px;
+    }
+
+    #populaire .populaire-info .info-hotel .image{
+        width: 127px;
+        height: 100%;
+        background-color: red;
+        border-radius: 13px 0 0 13px;
+    }
+
+    #populaire .populaire-info .info-hotel.info-hotel:nth-child(1) .image{
+        background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') -50px -5px no-repeat;
+        background-size: 240px;
+    }
+
+    #populaire .populaire-info .info-hotel.info-hotel:nth-child(2) .image{
+        background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') -50px -5px no-repeat;
+        background-size: 240px;
+    }
+
+    #populaire .populaire-info .info-hotel.info-hotel:nth-child(3) .image{
+        background: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') -20px -50px no-repeat;
+        background-size: 150px;
+    }
+
+    #populaire .populaire-info .info-hotel .info{
+        margin-top: 9px;
+        margin-left: 21px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #populaire .populaire-info .info-hotel .info .info-nom{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    #populaire .populaire-info .info-hotel .info .info-prix{
+        font-size: 13px;
+        flex: 1;
+    }
+
+    #populaire .populaire-info .info-hotel .info .info-note{
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: #0065FC;
+    }
+
+    /*hebergement*/
+
+    #hebergement{
+        background-color: #fff;
+        padding: 20px;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hebergement>h3{
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+
+    #hebergement>p{
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    #hebergement .proposition-ville{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hebergement .proposition-ville .proposition-info{
+        height: 208px;
+        padding: 5px;
+        flex: 1;
+        margin: 10px 0;
+        background-color: #fff;
+        border-radius: 17px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px #f2f2f2;
+    }
+
+    #hebergement .proposition-ville .proposition-info .image{
+        height: 114px;
+        background-color: red;
+        border-radius: 13px 13px 0 0;
+        margin-bottom: 12px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(1) .image{
+        background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') 0px -50px no-repeat;
+        background-size: 370px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(2) .image{
+        background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') 0px -90px no-repeat;
+        background-size: 370px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(3) .image{
+        background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') 0px -70px no-repeat;
+        background-size: 370px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(4) .image{
+        background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') 0px -130px no-repeat;
+        background-size: 370px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(5) .image{
+        background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') 0px -50px no-repeat;
+        background-size: 370px;
+    }
+
+    #hebergement .proposition-ville .proposition-info:nth-child(6) .image{
+        background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') 0px -230px no-repeat;
+        background-size: 370px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .info{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .info .info-nom{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    #hebergement .proposition-ville .proposition-info .info .info-prix{
+        font-size: 14px;
+        flex: 1;
+    }
+
+    #hebergement .proposition-ville .proposition-info .info .info-note{
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #0065FC;
+    }
+}
+
