@@ -746,7 +746,7 @@ body{
 
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1440px){
     #proposition{
         display: flex;
         flex-direction: column;
@@ -931,4 +931,96 @@ body{
         color: #0065FC;
     }
 }
+
+/*  Activité    */
+
+#activité{
+    
+}
+
+#activité h3{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#activité .activité-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#activité .activité-info article{
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    box-shadow: 0 0 20px #c2c2c2;
+}
+
+#activité .activité-info article h4{
+    height: 50px;
+    line-height: 50px;
+}
+
+#activité .activité-info article .image{
+    flex: 1;
+    border-radius: 17px 17px 0 0;
+}
+
+#activité .activité-info>article{
+    height: 445px;
+}
+
+#activité .activité-info .activité-low{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#activité .activité-info .activité-low:nth-child(2) article:nth-child(1){
+    height: 235px;
+}
+
+#activité .activité-info .activité-low:nth-child(2) article:nth-child(2){
+    height: 165px;
+}
+
+#activité .activité-info .activité-low:nth-child(4) article:nth-child(1){
+    height: 195px;
+}
+
+#activité .activité-info .activité-low:nth-child(4) article:nth-child(2){
+    height: 208px;
+}
+
+#activité .activité-info>article:nth-child(1) .image{
+    background: url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') -210px 0 no-repeat;
+}
+
+#activité .activité-info>article:nth-child(3) .image{
+    background: url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg') -150px 0 no-repeat;
+}
+
+#activité .activité-info .activité-low:nth-child(2) article:nth-child(1) .image{
+    background: url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg') -30px -160px no-repeat;
+}
+
+#activité .activité-info .activité-low:nth-child(2) article:nth-child(2) .image{
+    background: url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') 0 -10px no-repeat;
+    background-size: 300px;
+}
+
+#activité .activité-info .activité-low:nth-child(4) article:nth-child(1) .image{
+    background: url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg') no-repeat;
+    background-size: 320px;
+}
+
+#activité .activité-info .activité-low:nth-child(4) article:nth-child(2) .image{
+    background: url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg') no-repeat;
+    background-size: 300px;
+}
+
+
 
