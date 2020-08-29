@@ -934,7 +934,7 @@ body{
 
 /*  Activité    */
 
-@media screen and (min-width: 767px){
+@media screen and (min-width: 768px){
     #activité{
     
     }
@@ -1029,7 +1029,60 @@ body{
     }
 }
 
+@media screen and (max-width: 767px){
+    #activité{
+        margin: 20px;
+    }
+    
+    #activité h3{
+        margin-bottom: 30px;
+    }
 
+    #activité .activité-info article{
+        height: 195px;
+        width: 100%;
+        border-radius: 17px;
+        box-shadow: 0 0 20px #f2f2f2;
+        margin: 20px 0;
+    }
 
+    #activité .activité-info article .image{
+        height: 155px;
+        border-radius: 17px 17px 0 0;
+    }
+    #activité .activité-info article h4{
+        line-height: 40px;
+        text-align: center;
+    }
 
-
+    #activité .activité-info>article:nth-child(1) .image{
+        background: url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') center no-repeat;
+        background-size: 100%;
+    }
+    
+    #activité .activité-info>article:nth-child(3) .image{
+        background: url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg') center no-repeat;
+        background-size: 100%;
+    }
+    
+    #activité .activité-info .activité-low:nth-child(2) article:nth-child(1) .image{
+        background: url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg') center no-repeat;
+        background-size: 100%;
+    }
+    
+    #activité .activité-info .activité-low:nth-child(2) article:nth-child(2) .image{
+        background: url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') center no-repeat;
+        background-size: 100%;
+    }
+    
+    #activité .activité-info .activité-low:nth-child(4) article:nth-child(1) .image{
+        background: url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg') center no-repeat;
+        background-size: 100%;
+    }
+    
+    #activité .activité-info .activité-low:nth-child(4) article:nth-child(2) .image{
+        background: url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg') center no-repeat;
+        background-size: 100%;
+    }
+    
+}
