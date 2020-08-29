@@ -6,7 +6,7 @@ gris #F2F2F2
 */
 
 
-body, header, h1, h2, h3, h4, h5, h6, ul, li, form, input, i, p, img{
+body, header, h1, h2, h3, h4, h5, h6, ul, li, form, input, i, p, img, a{
     padding: 0;
     margin: 0;
 }
@@ -1086,3 +1086,61 @@ body{
     }
     
 }
+
+/*  Footer  */
+
+@media screen and (min-width: 768px){
+
+    footer .wrapper{
+        padding: 0 50px;
+        display: flex;
+    }
+
+    @media screen and (min-width: 1440px){
+        footer .wrapper{
+            width: 1340px;
+        }
+    }
+}
+
+@media screen and (max-width:767px){
+    footer .wrapper>div{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        flex: 1;
+    }
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer .wrapper>div{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    flex: 1;
+}
+
+footer .wrapper>div h1{
+    font-size: 15px;
+}
+
+footer .wrapper>div ul{
+    list-style: none;
+    margin-top: 17px;
+}
+
+footer .wrapper>div ul li{
+    font-size: 13px;
+    margin: 9px 0;
+}
+
+footer .wrapper>div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+    
